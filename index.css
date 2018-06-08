@@ -1,0 +1,461 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1024px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1024px;
+    height: 600px;
+    background: #192314;
+    position: relative;
+}
+
+.header-pic {
+    width: 700px;
+    height: 500px;
+    background: url("green.jpg");
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-size: 700px auto;
+    float: left;
+}
+
+.header-word {
+    width: 522px;
+    height: 241px;
+    position: absolute;
+    left: 86px;
+    top: 133px;
+    /*	background: red;*/
+}
+
+.box1 {
+    width: 169px;
+    height: 34px;
+    color: white;
+    /*	background: yellow;*/
+
+}
+
+.box2 {
+    width: 394px;
+    height: 71px;
+    /*	background: blue;*/
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.box3 {
+    width: 300px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    /*background: yellow;*/
+    margin-top: 10px;
+    color: white;
+}
+
+.box4 {
+    width: 288px;
+    /*height: 42px;*/
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: grey;
+    margin-top: 20px;
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.banner {
+    height: 305px;
+    padding-bottom: 100px;
+    background: url("img-bg-1350.jpg");
+    background-size: 100% auto;
+    background-position: 0px -158px;
+}
+
+.banner-pro {
+    width: 706px;
+    height: 354px;
+    /*	background-color: yellow;*/
+    margin: 0 auto;
+    margin-top: -48px;
+    position: relative;
+    z-index: 100;
+}
+
+.pro1 {
+    width: 235px;
+    height: 352px;
+    background: url("oak-2.jpg");
+    float: left;
+    background-size: 235px auto;
+    position: relative;
+}
+
+.pro2 {
+    width: 235px;
+    height: 352px;
+    background: url("beoplay-p6-8.jpg");
+    float: left;
+    background-size: 235px auto;
+    position: relative;
+}
+
+.pro3 {
+    width: 235px;
+    height: 352px;
+    background: url("earset-subtile1.jpg");
+    float: left;
+    background-size: 235px auto;
+    position: relative;
+}
+
+.z {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.menu {
+    height: 57px;
+    width: 1024px;
+    border-color: grey;
+    /*background-color: pink;*/
+    z-index: 2000;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.left {
+    height: 57px;
+    width: 248px;
+    /*background-color: red;*/
+}
+
+.center {
+    height: 57px;
+    width: 300px;
+    padding: 12px;
+    /*background-color: yellow;*/
+}
+
+.right {
+    height: 57px;
+    width: 248px;
+    /*	position: relative;*/
+    /*	background-color: blue;*/
+}
+
+.left, .right {
+    position: relative;
+}
+
+.a, .b, .c {
+    color: #fff;
+    position: absolute;
+}
+
+.a {
+    top: 16px;
+    left: 60px;
+    font-size: 15px;
+}
+
+.b {
+    top: 12px;
+    left: 413px;
+    font-size: 24px;
+}
+
+.c {
+    top: 16px;
+    right: 60px;
+    font-size: 15px;
+    /*position: absolute;*/
+}
+
+.left .x img {
+    width: 27px;
+    height: 17px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+}
+
+.right .y img {
+    width: 27px;
+    height: 15px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+}
+
+.title {
+    height: 318px;
+    padding-top: 90px;
+    text-align: center;
+    /*background-color: pink;*/
+}
+
+.title h6 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 13px;
+    margin: 12px 0px 18px 0px;
+}
+
+.title h2 {
+    margin: 25px 0px 40px 0px;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    line-height: 60px;
+}
+
+.product-list1 {
+    display: flex;
+    margin: 0 auto;
+    width: 1024px;
+    margin-left: 38px;
+    flex-wrap: wrap;
+
+}
+
+.product-list2 {
+    display: flex;
+    margin: 0 auto;
+    width: 1024px;
+    margin-left: 38px;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 315px;
+    height: 315px;
+    /*border:1px solid black;*/
+}
+
+.product1, .product2 {
+    width: 230px;
+    height: 220px;
+    /*border:1px solid black;*/
+}
+
+.product3 {
+    width: 460px;
+    height: 220px;
+    /*border:1px solid black;*/
+}
+
+.product-list1 :nth-child(1) {
+    background: url(beoplay-h9i-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.product-list1 :nth-child(2) {
+    background: url(beosound-shape-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.product-list1 :nth-child(3) {
+    background: url(beovision-eclipse-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.product-list1 :nth-child(4) {
+    background: url(beolab-50-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.product-list1 :nth-child(5) {
+    background: url(beoplay-p6-categories-mobile-2.jpg);
+    background-size: 100% auto;
+}
+
+.product-list1 :nth-child(6) {
+    background: url(beosound-core-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.product-list2 :nth-child(1) {
+    background: url(design-as-a-group-effort-01.jpg);
+    background-size: 100% auto;
+}
+
+.product-list2 :nth-child(2) {
+    background: url(the-krane.jpg);
+    background-size: 100% auto;
+}
+
+.product-list2 :nth-child(3) {
+    background: url(harmonies-story.jpg);
+    background-size: 100% auto;
+}
+
+.product-list2 :nth-child(4) {
+    background: url(20180607192948.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 19px;
+}
+
+.product-list2 :nth-child(5) {
+    background: url(20180607192613.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    margin-top: 19px;
+}
+
+.product-list2 :nth-child(6) {
+    background: url(20180607192627.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    margin-top: 19px;
+}
+
+.footer {
+    width: 100%;
+    height: 600px;
+    /*border:1px solid red;*/
+    display: flex;
+}
+
+.footer-left {
+    width: 420px;
+    height: 598px;
+    /*border:1px solid red;*/
+    float: left;
+    margin-left: 100px;
+    position: relative;
+}
+
+.footer-right {
+    width: 600px;
+    height: 598px;
+    /*border:1px solid red;*/
+    float: left;
+    margin-left: 70px;
+    position: relative;
+}
+
+.icon1 {
+    width: 60px;
+    height: 60px;
+    background: black url(news.jpg) no-repeat center center;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 167px;
+}
+
+.icon2 {
+    width: 60px;
+    height: 60px;
+    background: black url(search.jpg) no-repeat center center;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 190px;
+}
+
+.footer-left h5 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 150px;
+    color: #494545;
+}
+
+.footer-right h5 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 150px;
+    color: #494545;
+}
+
+.footer-left p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-right p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.x {
+    height: 68px;
+    width: 400px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.list1 {
+    height: 43px;
+    width: 248px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: #e5e5e5;
+    border: 0px;
+}
+
+.list2 {
+    height: 43px;
+    width: 248px;
+    text-align: center;
+    margin-top: 115px;
+    margin-left: 100px;
+    background-color: #e5e5e5;
+    border: 0px;
+}
+
+.language strong {
+    font-size: 12px;
+}
+
+.lan {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.end-left {
+    width: 500px;
+    height: 50px;
+    float: left;
+    margin-left: 30px;
+}
+
+.end-right {
+    width: 100%;
+    height: 50px;
+}
+
+.end-right li {
+    list-style-type: none;
+    color: #000;
+    font-size: 12px;
+    float: left;
+    padding-left: 10px;
+}
+
+.end-right li a {
+    text-decoration: none;
+    color: #333
+}
